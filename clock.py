@@ -14,8 +14,8 @@ root=Tk()
 root.geometry("500x250")
 
 #---> Digital Clock text
-digi=Label(root,text="Digital clock",font="times 24 bold")
-digi.grid(row=0,column=2)
+tex =Label(root,text="Digital clock",font="times 24 bold")
+tex.grid(row=0,column=2)
 
 #---> Digital Clock main
 clock=Label(root,font=("times",50,"bold"),bg="white")
@@ -23,8 +23,8 @@ clock.grid(row=2,column=2,pady=25,padx=100)
 times()
 
 #---> Hour // Minute // Second
-nota=Label(root,text="hours   minutes   seconds   ",font="times 15 bold")
-nota.grid(row=3,column=2)
+way =Label(root,text="hours     minutes     seconds   ",font="times 15 bold")
+way.grid(row=3,column=2)
 
 #---> Main loop run
 root.mainloop()
